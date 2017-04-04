@@ -12,6 +12,7 @@
 		09D80DD81E827DD000EECE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D80DD61E827DD000EECE06 /* Main.storyboard */; };
 		09D80DDA1E827DD000EECE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D80DD91E827DD000EECE06 /* Assets.xcassets */; };
 		09D80DDD1E827DD000EECE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D80DDB1E827DD000EECE06 /* LaunchScreen.storyboard */; };
+		09D80DE51E82946200EECE06 /* SegundaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D80DE41E82946200EECE06 /* SegundaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		09D80DD91E827DD000EECE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09D80DDC1E827DD000EECE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09D80DDE1E827DD000EECE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09D80DE41E82946200EECE06 /* SegundaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegundaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				09D80DD21E827DD000EECE06 /* AppDelegate.swift */,
 				09D80DD41E827DD000EECE06 /* ViewController.swift */,
+				09D80DE41E82946200EECE06 /* SegundaViewController.swift */,
 				09D80DD61E827DD000EECE06 /* Main.storyboard */,
 				09D80DD91E827DD000EECE06 /* Assets.xcassets */,
 				09D80DDB1E827DD000EECE06 /* LaunchScreen.storyboard */,
@@ -96,8 +99,7 @@
 				TargetAttributes = {
 					09D80DCE1E827DD000EECE06 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NZ9BB45RRX;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -138,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D80DD51E827DD000EECE06 /* ViewController.swift in Sources */,
+				09D80DE51E82946200EECE06 /* SegundaViewController.swift in Sources */,
 				09D80DD31E827DD000EECE06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NZ9BB45RRX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = App_Des_Asyn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cice.App-Des-Asyn";
@@ -272,7 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NZ9BB45RRX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = App_Des_Asyn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cice.App-Des-Asyn";
